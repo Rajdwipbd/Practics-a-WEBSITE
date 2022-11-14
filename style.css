@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.firstUl li {
+    list-style: none;
+    background-color: rgba(199, 146, 195, 0.438);
+    padding: 2px 8px;
+    border-radius: 2px;
+}
+
+.firstUl li:hover {
+    background-color: lightgreen;
+    padding: 0 15px;
+}
+
+.mainbody {
+    width: 94%;
+    margin: 0 auto;
+
+
+}
+
+header {
+    background-color: rgba(144, 238, 144, 0.432);
+    padding: 20px 0 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: brown;
+    font-size: 2em;
+
+}
+
+nav .firstUl {
+    display: flex;
+    gap: 30px;
+}
+
+.sublink {
+
+    position: absolute;
+    display: none;
+
+}
+
+.link-p:hover .sublink {
+    display: block;
+}
+
+/* main container Start */
+.Container1 {
+
+    display: flex;
+}
+
+main h1 {
+    color: blue;
+
+}
+
+main small {
+    color: darkcyan;
+}
+
+.firstCard {
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.firstCard ul li {
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+/* main container End */
+
+.cotainer {
+    display: flex;
+}
+
+.cotainer .card {
+    width: 33%;
+    height: 350px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: rgb(135, 246, 250);
+
+}
+
+.card:hover {
+    background-color: darkgreen;
+    color: chartreuse;
+}
+
+button {
+    background-image: linear-gradient(rgb(230, 146, 146), rgb(114, 221, 240));
+    border-radius: 6px;
+}
+
+img {
+    width: 53%;
+    height: auto;
+    border-radius: 10px;
+
+    transition: width 3s linear, transform 5s;
+
+
+}
+
+img:hover {
+    width: 100%;
+    height: auto;
+    transform: rotate(360deg);
+
+
+
+}
+
+.firstCard ul {
+    text-align: left;
+}
